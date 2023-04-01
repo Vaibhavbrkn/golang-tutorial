@@ -188,7 +188,7 @@ func BingScrape(searchTerm, country string, proxyString interface{}, pages, coun
 }
 
 func main() {
-	result, err := BingScrape("Vaibhav agrawal", "com", nil, 2, 30, 30)
+	result, err := BingScrape("Vaibhav", "com", nil, 2, 30, 30)
 	if err == nil {
 		for _, res := range result {
 			fmt.Println(res)
